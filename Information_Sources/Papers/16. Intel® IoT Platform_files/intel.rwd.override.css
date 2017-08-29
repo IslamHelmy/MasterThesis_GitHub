@@ -1,0 +1,68 @@
+/* CSS Override for US/EN GEO */
+
+/* TEMP INC002844429 */
+.desktop.rwd .global-menu .sign-in-ul, .rwd .global-menu .sign-in-ul {min-width:inherit;}
+
+/* TEMP FIX for Teasers*/
+.rwd .l3-masthead-component .campaign .white-theme .l3-masthead-content .text { color: #555; }
+.rwd .l3-masthead-component .campaign .l3-masthead-content .text { color: white; }
+
+/* TEMP Campaign Fix - remove after v5.7*/
+.rwd.pro .flyout-component .static-items .static-item {padding-bottom:10px;}
+
+/* temp fix for my-intel badge */
+.rwd .login-register .program-badge img {max-width:300px;}
+
+/* temp - hide find content link in header */
+.rwd .navbar-links .navbar-right {display:none;}
+
+/* TEMP DF9256, remove after 5.8 Release */
+@media screen and (max-width: 767px) { .rwd .blade-item-content-wrapper {padding:15px;} }
+
+/* temp fix for my-intel badge */
+.rwd .login-register .program-badge img {max-width:300px;}
+
+/* Emergency TEMP fix for font sizing in Media Asset with Text */
+@media screen and (min-width: 768px) {
+.rwd .l3-text-media-component h2 {font-size: 3.25em;}
+}
+@media screen and (min-width: 992px) {
+.rwd .l3-text-media-component h2 {font-size: 3.25em;}
+}
+@media screen and (min-width: 1200px) {
+.rwd .l3-text-media-component h2 {font-size: 3.25em;}
+}
+.rwd .l3-text-media-component p {font-size: 16px;}
+
+/* Emergency TEMP fix for Intel Logo on Hi-Res devices */
+.rwd .header-simplify nav.global-menu-simplify .navbar-logo {
+    background: url('/etc/designs/intel/clientlibs/pages/commons-page/images/intel-logo-highres.png');
+	background-size: 100%;
+}
+.rwd.ie .header-simplify nav.global-menu-simplify .navbar-logo {
+    background: url('/etc/designs/intel/clientlibs/pages/commons-page/images/hdr-spr.png') no-repeat -77px -512px;
+}
+@media screen and (max-width:767px) {
+.rwd.ie .header-simplify nav.global-menu-simplify .navbar-logo {background:url('/etc/designs/intel/clientlibs/pages/commons-page/images/hdr-spr.png') no-repeat -77px -427px;}
+}
+
+/* TEMP FIX DE19216 */
+.rwd.ie .headerfooter-menu3.rwd .flyout-panel .igm-image-text figure IMG {width:auto; height:auto;}
+
+/* TEMP Tab Blade Darkest Blue override */
+.rwd .tabblade .brand-darkest-blue{background-color:#05132D;}
+.rwd .tabblade .brand-darkest-blue .blade.solid.brand-dark-blue.brand-darkest-blue  {background-color:#02284F;}
+.rwd .tabblade .brand-darkest-blue .tab-content {background-color:#02284F;}
+.rwd .tabblade .brand-darkest-blue .show-more-items, 
+.rwd .tabblade .brand-darkest-blue .show-less-items, 
+.rwd .tabblade .brand-darkest-blue .view-all-items {background-color:#02284F;}
+@media screen and (min-width: 768px) {
+	.rwd .tabblade .brand-darkest-blue .nav-tabs {-webkit-box-shadow: initial;-moz-box-shadow: initial;box-shadow: initial;}
+	.rwd .tabblade .brand-darkest-blue .nav-tabs li {border:0px;}
+	.rwd .tabblade .brand-darkest-blue .nav-tabs li a {color:#ffffff; opacity:0.5;border:0px;border:0px;}
+	.rwd .tabblade .brand-darkest-blue .nav-tabs li.active a {background-color:#02284F; color:#ffffff; opacity:1;border:0px;}
+}
+
+/* TEMP FIX DE19864 */
+.rwd .overview-component.overview-component-1.hero.hero-takeover .blade-item-content-wrapper {padding-bottom:2em;}
+
