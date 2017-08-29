@@ -2,13 +2,13 @@
 All My Master thesis information will be kept in that directory for syncing.
 
 The Project is structured as follows:
-1. Information_Sources 
+1. Information_Sources: which consists of
 		-> Papers
 		-> HW_Documents
 		-> Videos	
 		-> Images+Screenshots
 2. Project_Codes
-3. Documentation_Work
+3. Documentation_Work: which consists of
 		-> Presentations
 		-> MyThesis_Documentation
 		-> Papers_Submission
